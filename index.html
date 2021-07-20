@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="keywords" > -->
+    <title>Stero Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <style>
+        /* CSS Reset */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://cdn.pixabay.com/photo/2017/01/09/11/30/dumbbell-1966247_1280.jpg');
+            /* height: 5454px; */
+            font-family: 'Baloo Bhai 2', 'cursive';
+            /* width: 65px; */
+        }
+
+        .left {
+            position: absolute;
+            display: inline-block;
+            /* border: 1px solid red; */
+            left: 33px;
+            top: 20px;
+            line-height: 0px;
+            font-weight: bolder;
+            font-size: 8px;
+            /* width: 65px; */
+        }
+
+        .left img {
+            width: 43px;
+            filter: invert(100%);
+        }
+
+        .mid {
+            display: block;
+            width: 49.83%;
+            margin: 20px auto;
+            font-weight: bolder;
+            /* border: 1px solid yellow; */
+        }
+
+        .right {
+            position: absolute;
+            right: 33px;
+            top: 20px;
+            display: inline-block;
+            /* border: 1px solid green; */
+        }
+
+        .navbar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 19px;
+            /* border: 1px solid red; */
+            /* text-decoration: none; */
+        }
+
+        .navbar li a {
+            color: white;
+            margin: 19px;
+            text-decoration: none;
+            font-family: 'Baloo Bhai 2', 'cursive';
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .btn {
+            margin: 25px 4px;
+            margin-bottom: 1rem;
+            color: white;
+            background-color: black;
+            padding: 2px 10px;
+            border: 2px solid grey;
+            border-radius: 11px;
+            font-size: 14px;
+            font-weight: 900;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: grey;
+            color: black;
+            /* font-weight: 200; */
+
+        }
+
+        .container {
+            border: 5px solid white;
+            padding: 6px 8px;
+            margin: 108px 60px;
+            border-radius: 18px;
+            width: 53%;
+            /* height: 4%; */
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai 2', 'cursive';
+            display: block;
+            margin: 15px auto;
+            padding: 4px 102px;
+            border-radius: 17px;
+            text-align: center;
+            font-weight: bolder;
+            border: 2px solid black;
+            font-size: 17px;
+
+        }
+
+        .container button {
+            border-radius: 17px;
+            text-align: center;
+            margin: auto;
+            display: block;
+            width: 400px;
+            padding: 6px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- Left for Logo -->
+        <div class="left">
+            <img src="img/image.png" alt="gym Logo">
+            <p>Streo Fitness</p>
+        </div>
+
+        <!-- Mid for Navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- Right for Buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <!-- container -->
+    <div class="container">
+        <h1>Join the best Gym in Delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <!-- <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div> -->
+            <!-- Submit Button -->
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
